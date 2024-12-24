@@ -1,2 +1,2 @@
 # testwebsite
-[hi](https://allthemore247.github.io/testwebsite/)
+[link](https://allthemore247.github.io/testwebsite/)
