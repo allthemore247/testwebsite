@@ -8,4 +8,4 @@ tags: [testing]
 
 # Home Page
 
-Hello!
+Hello! Apparently, you do need actions enabled.
