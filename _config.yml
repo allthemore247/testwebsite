@@ -1,4 +1,5 @@
-url: "https://allthemore247.github.io/testwebsite/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://allthemore247.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/testwebsite" # the subpath of your site, e.g. /blog
+permalink: /:title # used to set the url of each post to a title instead of a date
 title: "AlltheMore's Testing Site" # the name of your site, e.g. ACME Corp.
 highlighter: "rouge"
