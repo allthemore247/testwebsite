@@ -28,7 +28,7 @@ body {
     background-color: whitesmoke;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,12 +41,13 @@ body {
     gap: 10px;
 
     #sidebar {
-        width: 15%;
+        padding: 10px;
+        width: auto;
     }
 
     #content {
         padding: 1%;
-        width: 75%;
+        width: auto;
         border-left: 2px solid black;
     }
 }

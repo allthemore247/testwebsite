@@ -6,28 +6,49 @@
 
 		<title>Introduction to Jekyll - AlltheMore's Testing Site</title>
 
-		<link rel="stylesheet" href="https://allthemore247.github.io/testwebsiteassets/css/main.css">
+		<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 	</head>
 	<body>
 		<div id="wrapper">
 			<div id="header">
-				<h1 onclick="location.href = 'https://allthemore247.github.io/testwebsite'">AlltheMore's Testing Site</h1>
+				<div id="title">
+					<h1>AlltheMore's Testing Site</h1>
+				</div>
+
+				<div id="nav">
+					<a href="http://localhost:4000">Home</a>
+					<a href="http://localhost:4000/about.html">About</a>
+					<a href="http://localhost:4000/folder/content.html">CONTENT!!!</a>
+				</div>
 			</div>
 			
 			<div id="body">
 				<div id="sidebar">
+					<!-- Display basic index of posts
 					<ul>
 						
 						  <li>
-							<a href="https://allthemore247.github.io/testwebsite/Introduction-To-Jekyll">Introduction to Jekyll</a>
+							<a href="http://localhost:4000/posts/Introduction-To-Jekyll">Introduction to Jekyll</a>
 						  </li>
 						
 						  <li>
-							<a href="https://allthemore247.github.io/testwebsite/Another-Post!">Badabing</a>
+							<a href="http://localhost:4000/posts/Another-Post!">Badabing</a>
 						  </li>
 						
 					  </ul>
+					-->
+					<!-- Display index alongside given tags for posts -->
+					
+						<h3>testing</h3>
+						<ul>
+							
+							<li><a href="/posts/Introduction-To-Jekyll">Introduction to Jekyll</a></li>
+							
+							<li><a href="/posts/Another-Post!">Badabing</a></li>
+							
+						</ul>
+					
 				</div>
 
 				<div id="content">
